@@ -3,7 +3,10 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "storageName": {
-            "value": "devoage023990"
-        }
+            "value": "devoage023890"
+        },        
+            "location": {
+                "value": "mexicocentral"
+            }
     }   
 }
