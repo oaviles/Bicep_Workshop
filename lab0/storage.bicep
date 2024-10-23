@@ -1,5 +1,8 @@
 // main.bicep
 
+var sku = 'Standard_LRS'
+var kind = 'StorageV2'
+
 @description('The name of the storage account')
 param storageName string
 
@@ -10,9 +13,9 @@ resource storageAccount 'Microsoft.Storage/storageAccounts@2021-06-01' = {
   name: storageName
   location: location
   sku: {
-    name: 'Standard_LRS'
+    name: sku
   }
-  kind: 'StorageV2'
+  kind: kind
 }
 
 output storageAccountId string = storageAccount.properties.primaryEndpoints.blob
