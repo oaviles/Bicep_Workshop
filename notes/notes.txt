@@ -1,3 +1,19 @@
 az deployment group create --resource-group Bicep_Zone --template-file main.bicep --parameters @parameters.json
 
 az deployment group create --resource-group <your-resource-group> --template-file <your-template-file>.bicep --parameters @parameters.json
+
+GH Actions Pipeline
+
+{
+    "clientSecret":  "GUID",
+    "subscriptionId":  "GUID",
+    "tenantId":  "GUID",
+    "clientId":  "GUID"
+}
+
+{
+    "clientSecret":  "0fa258af-3895-4dd8-8b09-6d847d85febd",
+    "subscriptionId":  "18779ab0-1515-4383-8ccf-aa6014941ef0",
+    "tenantId":  "18779ab0-1565-4383-8ccf-aa6014941ef0",
+    "clientId":  "18779ab0-1565-4383-8ccf-aa6014941ef0"
+}
