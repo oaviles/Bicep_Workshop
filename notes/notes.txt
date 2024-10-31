@@ -12,8 +12,8 @@ GH Actions Pipeline
 }
 
 {
-    "clientSecret":  "0fa258af-3895-4dd8-8b09-6d847d85febd",
-    "subscriptionId":  "18779ab0-1515-4383-8ccf-aa6014941ef0",
-    "tenantId":  "18779ab0-1565-4383-8ccf-aa6014941ef0",
-    "clientId":  "18779ab0-1565-4383-8ccf-aa6014941ef0"
+    "clientSecret":  "0fa258af-3895-4dd8-8b09-6d847d85febd",    // Fake sample ;)
+    "subscriptionId":  "18779ab0-1515-4383-8ccf-aa6014941ef0",  // Fake sample ;)
+    "tenantId":  "18779ab0-1565-4383-8ccf-aa6014941ef0",        // Fake sample ;)
+    "clientId":  "18779ab0-1565-4383-8ccf-aa6014941ef0"         // Fake sample ;)
 }
