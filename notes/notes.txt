@@ -2,7 +2,7 @@ az deployment group create --resource-group Bicep_Zone --template-file main.bice
 
 az deployment group create --resource-group <your-resource-group> --template-file <your-template-file>.bicep --parameters @parameters.json
 
-GH Actions Pipeline
+GH Actions Pipeline : Azure Login Action : https://github.com/marketplace/actions/azure-login 
 
 {
     "clientSecret":  "GUID",
