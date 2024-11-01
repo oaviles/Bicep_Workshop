@@ -1,1 +1,1 @@
-# Bicep_Workshop
+# Bicep Workshop
